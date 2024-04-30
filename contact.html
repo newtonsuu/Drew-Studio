@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Start of html -->
+
+<head><!-- Start of head -->
+  
+  <!-- Start of Metadate -->
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Content" content="Exercise No.4: E-Commerce Website">
+  <meta name="Page" content="Contact Page">
+  <meta name="Author" content="Jericho James R. Guanga">
+  <!-- End of Metadate -->
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="image/icon.png">
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Title -->
+  <title>Drew Studio</title>
+
+</head>
+
+<body>
+  <ul class="title">
+    <h1 class="header">Drew Studio</h1>
+  </ul>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Services</a>
+      <div class="dropdown-content">
+        <a href="shop.html">Shop</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonial.html">Testimonials</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li style="float:right"><img src="image/logo.png" alt="logo" width="40" height="40"></li>
+    
+  </ul>
+
+  <div class="forms">
+    <h1>Registration Form</h1>
+    <form method="post" action="mailto:jjrguanga@mymail.mapua.edu.ph">
+      <fieldset>
+       <legend align="center"><strong>Personalia</strong></legend>
+       <strong>
+       <label for="fname">First name:</label>
+       <input type="text" id="fname" name="fname"><br><br>
+       <label for="mname">Middle name:</label>
+       <input type="text" id="mname" name="mname"><br><br>
+       <label for="lname">Last name:</label>
+       <input type="text" id="lname" name="lname"><br><br>
+       <label for="nname">Nick name:</label>
+       <input type="text" id="nname" name="nname"><br><br>
+       <label for="suffix">Suffix:</label><br><br>
+       <input type="radio" id="jr" name="suffix" value="jr">
+       <label for="jr">Jr.</label>
+       <input type="radio" id="sr" name="suffix" value="sr">
+       <label for="css">Sr.</label>
+       <input type="radio" id="i" name="suffix" value="i">
+       <label for="i">I</label>
+       <input type="radio" id="ii" name="suffix" value="ii">
+       <label for="i">II</label>
+       <input type="radio" id="iii" name="suffix" value="iii">
+       <label for="i">III</label><br><br><br>
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email"><br><br>
+       <label for="phone">Contact number:</label>
+       <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+       <label for="birthday">Birthday:</label>
+       <input type="date" id="birthday" name="birthday"><br><br>
+       
+      </strong></fieldset>
+
+      <fieldset>
+        <legend align="center"><strong>Website survey</strong></legend>
+        <strong>
+        <label for="name">How did you learn about us?</label>
+        <input type="text" id="name" name="name" size="50" maxlength="80" autocomplete="on">
+
+        <label for="company">Which Real estate company have you previously interacted with?</label>
+        <input list="company" name="company" id="companies" size="50">
+          <datalist id="company">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+
+        <label for="name">Do you prefer our website over other real estate companies</label>
+        <input type="text" id="name" name="name" size="50" maxlength="80" autocomplete="on">
+        <label for="name">What are the flaws of our website?</label>
+        <input type="text" id="name" name="name" size="50" maxlength="80" autocomplete="on">
+        <label for="name">What improvements can be made on the website?</label>
+        <input type="text" id="name" name="name" size="50" maxlength="80" autocomplete="on">
+        <br>  
+        <label for="rate_design">Rate the design</label>
+        <select id="rate_design">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <label for="rate_design">Rate the service</label>
+        <select id="rate_design">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        
+        <label for="rate_design">Rate the satisfaction</label>
+        <select id="rate_design">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <br><br>
+        <label for="comsec">Any other comments/suggestions:</label><br><br>
+        <textarea name="comment section" id="comsec" cols="100%" rows="7"></textarea>
+  </li>
+      </strong></fieldset>
+
+      <fieldset class="button">
+        <legend align="center"><strong>Submission or Reset</strong></legend>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </fieldset>
+
+      <fieldset class="map">
+        <legend align="center"><strong>Location</strong></legend>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6733697.525276881!2d129.759079760236!3d34.50444985359531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b4f81524abd%3A0x77febb23a5295190!2sNanamica%20Daikanyama!5e0!3m2!1sen!2sph!4v1713506492093!5m2!1sen!2sph" width="100%" height="auto" style="border: 3px solid #283d70;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </fieldset>
+     </form>
+
+  </div>
+
+  <br>
+
+
+  <footer>
+    <p>Author: Jericho James R. Guanga<br>
+    <a href="jjrguanga@mymail.mapua.edu.ph">jjrguanga@mymail.mapua.edu.ph</a></p>
+  </footer>
+
+  <script src="js/slide.js">    
+    </script>
+  </body>
+
+
+</html>
